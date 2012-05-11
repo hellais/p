@@ -15,9 +15,9 @@ configurations may have issues.
 
 To install enter a directory where you want to store the software. Then
 
-  git clone git://github.com/hellais/p.git
-  cd p
-  ./p
+    git clone git://github.com/hellais/p.git
+    cd p
+    ./p
 
 You will then need to re-apply your bash\_profile. At this point you will be
 able to call p directly.
