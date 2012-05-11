@@ -21,7 +21,6 @@ def init_bash_profile():
     print "Checking for installed bash profile"
     script = """# p simple shell project manager ~314159265~
 function p () {
-    echo $@
     %s "$@";
     if [ -f ~/.p/pdir ]; then
         cd `cat ~/.p/pdir`;
